@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoint
+telefones pequenos: max-width:480px
+Telefones médios: de 481px até 767px
+Tablets: de 768px até 1024px
+Laptops: de 1025px até 1280px
+Pc: de 1281px até 1536px
+Grandes Telas: +1536px
+ */
+
+@media screen and (min-width:768px) and (max-width:1024) {
+    html,body{
+        background-image: linear-gradient(to bottom, #552774, #4b959a);
+    }
+}
+
+@media screen and (min-width:1025px){
+    html,body{
+        background-image: linear-gradient(to bottom, #552774, #4b959a);
+    }
+}
