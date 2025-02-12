@@ -4,48 +4,48 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html, body{
     width: 100vw;
     height: 100vh;
     background-color:#552774;
-    position: relative;
 }
 
 main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+section#login{
+    width: 250px;
+    height: 500px;
     background-color: white;
-    width: 50vw;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 10px;
-
+    border-radius: 20px;
+    overflow: hidden; /* Tudo o que ultrapassar a borda, deixa de aparecer*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
 }
 
-main h2{
-    text-align: center;
+section#login > div#imagem{
+    background: #552774 url(../imagens/pexels-04iraq-1272398525-30638260.jpg) no-repeat;
+    background-position: right center;
+    background-size: cover;
+    height: 270px;
+    display: block;
+}
+
+section#login div#formulario{
     padding: 10px;
-}
-span{
-    color: white;
+    display: block;
 }
 
-div{
-    background-color: #552774;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-}
 
-#Entrar{
-    background-color: aquamarine;
-}
-
-img{
-    height: 400px;
-    width: 220px;
-}
 
 
