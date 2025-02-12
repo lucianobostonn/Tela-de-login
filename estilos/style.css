@@ -34,11 +34,13 @@ section#login{
 }
 
 section#login > div#imagem{
-    background: #552774 url(../imagens/pexels-04iraq-1272398525-30638260.jpg) no-repeat;
-    background-position: right center;
+    background: #552774 url(../imagens/2886.jpg) no-repeat;
+    background-position: 80% center;
     background-size: cover;
     height: 270px;
     display: block;
+    transition: width .4s, heigth .7s;
+    transition-timing-function: ease;
 }
 
 section#login div#formulario{
