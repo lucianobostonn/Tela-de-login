@@ -11,7 +11,7 @@ Grandes Telas: +1536px
 
 @media screen and (min-width:768px) and (max-width:1024px) {
     html,body{
-        background-image: linear-gradient(to bottom, #552774, orange);
+        background-image: linear-gradient(to bottom, #552774, #ff44008e);
     }
 
     section#login{
@@ -36,7 +36,7 @@ Grandes Telas: +1536px
 
 @media screen and (min-width:1025px){
     html,body{
-        background-image: linear-gradient(to bottom, #552774, orange);
+        background-image: linear-gradient(to bottom, #552774, #ff44008e);
     }
 
     section#login{
