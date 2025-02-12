@@ -22,7 +22,7 @@ main{
 
 section#login{
     width: 250px;
-    height: 500px;
+    height: 530px;
     background-color: white;
     position: absolute;
     top: 50%;
@@ -56,7 +56,15 @@ div#formulario h2{
 div#formulario p{
     font-size: .8em;
 }
-
+div.campo label{
+    display: none;
+}
+form .campo{
+    background-color: #552774;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
 form input[type=submit]{
     display: block;
     font-size: 1em;
